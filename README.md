@@ -1,4 +1,5 @@
-##Mastermind##
+Mastermind
+
 The design of the Mastermind game incorporates a variety of foundational programming skills acquired throughout the semester. It was built with Python as a class and provides an interactive and visually engaging experience where players aim to guess a secret code comprised of colored marbles through Turtle graphics. The game’s architecture composed of multiple areas such as the status, leaderboard, and play areas, each serving a distinct function within the game’s interface. 
 
 The game’s core utilizes variables and complex expressions to handle game logic and calculations. By employing Boolean expressions and for loops, the game dynamically evaluates player’s guesses against the secret code, ensuring a continuous play until the correct code is guessed or attempted are used up. The game's structure is organized into lists and nested lists, which are manipulated with for loops for tracking the game state by position. Strings and lists of strings are fundamental in representing the marbles and their colors, and for loops iterate by value when updating the game board. Also, a dictionary is used to map player guesses to their outcomes, and sets are utilized to ensure all guesses are unique, and the use of higher-order functions streamlined the code, making it more readable and maintainable. 
